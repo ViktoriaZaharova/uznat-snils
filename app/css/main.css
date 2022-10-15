@@ -1,0 +1,171 @@
+/*==========  section  ==========*/
+.home h4 {
+  font-size: 24px;
+  line-height: 120%; }
+
+.examination {
+  margin: 30px 0 0;
+  padding: 0 0 34px; }
+
+.subtext {
+  max-width: 780px;
+  line-height: 120%;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 30px; }
+
+.source {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 89px 0 0;
+  color: #828282;
+  font-size: 12px;
+  line-height: 120%; }
+  .source-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 46px;
+    margin: 0 20px 0 0;
+    opacity: .75;
+    min-width: 46px; }
+
+.form-examination .row {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.form-examination .form-row {
+  margin: 0 0 29px; }
+
+/*==========  section end  ==========*/
+/*==========  section statistics ==========*/
+.statistics {
+  padding: 55px 0 0; }
+
+.table {
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif; }
+  .table .thead {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif; }
+    .table .thead .td {
+      padding: 18px; }
+  .table .tbody .tr {
+    background: #F2F2F2; }
+    .table .tbody .tr:nth-child(even) {
+      background: #F8F8F8; }
+
+.tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin: 0 0 10px;
+  border-radius: 5px; }
+  .tr:last-child {
+    margin: 0; }
+
+.td {
+  padding: 20px 18px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+  .td:first-child {
+    width: 13%;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none; }
+
+.table-description {
+  text-align: right;
+  margin: 29px 0 0 auto;
+  font-size: 14px;
+  font-weight: bold; }
+  .table-description sup {
+    color: #EB5757; }
+
+/*==========  section statistics end  ==========*/
+/*==========  section question ==========*/
+.question {
+  padding: 55px 0; }
+
+.question-box {
+  margin: 0 0 20px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px 30px; }
+  .question-box h3 {
+    color: #2862AC;
+    margin: 0 0 11px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%; }
+  .question-box .box-text {
+    line-height: 150%;
+    color: #4F4F4F;
+    max-width: 800px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif; }
+
+/*==========  section question end  ==========*/
+/*==========  section contacts ==========*/
+.box-text-description {
+  font-size: 24px;
+  line-height: 120%;
+  color: #4F4F4F; }
+  .box-text-description p {
+    margin: 0 0 20px; }
+    .box-text-description p:last-child {
+      margin: 0; }
+
+.payments {
+  margin: 48px 0; }
+
+.data-home h1 {
+  margin: 0 0 20px; }
+
+/*==========  section contacts end  ==========*/
+/*==========  section index2 ==========*/
+.result-examination {
+  margin: 10px 0 0; }
+  .result-examination h3 {
+    margin: 0 0 22px;
+    font-weight: bold;
+    font-size: 32px; }
+  .result-examination h5 {
+    font-size: 16px;
+    font-weight: 500; }
+
+.info-list {
+  font-family: 'Open Sans', sans-serif; }
+
+.result-plus h3 {
+  color: #00BA13; }
+
+/*==========  section index2 end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/

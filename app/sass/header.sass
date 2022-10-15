@@ -1,0 +1,76 @@
+@import "vars"
+
+/*==========  section header ==========*/
+.logo
+  display: flex
+  align-items: center
+  color: #333333
+  font-size: 14px
+
+.logo-name
+  display: block
+  color: $accent
+  font-size: 15px
+  font-weight: 900
+
+.logo-icon
+  @include d-flex
+  width: 50px
+  margin: 0 9px 0 0
+
+  
+header
+  box-shadow: 10px 10px 30px #F4F4F4
+  background: #fff
+  margin: 0 0 27px
+  padding: 25px 0
+  .container
+    align-items: center
+
+.menu
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  margin: 0 0 0 auto
+  font-size: 14px
+  font-weight: bold
+  li
+    margin: 0 39px 0 0
+    &:last-child
+      margin: 0
+    a
+      color: #333333
+      &:hover
+        color: $accent
+
+.btn-burger
+  width: 20px
+  height: 16px
+  display: none
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+  position: relative
+  span
+    width: 100%
+    height: 2px
+    background: $accent
+    border-radius: 2px
+  &.click
+    span
+      top: 8px
+      width: 20px
+      position: absolute
+      &:nth-child(2)
+        width: 0
+      &:first-child
+        transform: rotate(45deg)
+      &:last-child
+        transform: rotate(135deg)
+/*==========  section header end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/

@@ -1,0 +1,190 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px)
+  /**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  /**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 900px)
+  .home
+    h4
+      font-size: 18px
+
+  h1, .h1
+    font-size: 30px
+    line-height: normal
+
+  h2
+    font-size: 24px
+
+  header
+    padding: 10px 0
+
+  .w-70, .w-30
+    width: 100%
+
+  .form-row
+    justify-content: flex-start
+
+  .checkbox-text
+    max-width: none
+
+  .checkbox
+    margin: 0 0 15px
+
+  .checkbox-custom
+    margin: 0 9px 0 0
+
+  .form-examination
+    .btn
+      margin: 0 auto
+
+  .source
+    margin: 40px 0 0
+
+  .menu
+    li
+      margin: 0 20px 0 0
+
+  .question-box
+    h3
+      font-size: 20px
+      line-height: normal
+
+  .footer-top
+    padding: 15px 0
+    .logo
+      margin: 0 auto
+    .menu
+      width: 100%
+      justify-content: center
+      margin: 10px 0 0
+
+
+@media only screen and (max-width: 768px)
+  .menu
+    width: 100%
+    justify-content: center
+    margin: 20px auto 0
+
+  .btn-burger
+    display: flex
+
+  header
+    .menu
+      text-align: center
+      display: none
+      position: absolute
+      background: #fff
+      left: 0
+      top: 60px
+      z-index: 2
+      padding: 20px
+      margin: 0
+      box-shadow: 10px 10px 30px #F4F4F4
+      li
+        margin: 0 auto 10px
+      a
+        margin: 0 auto
+
+  .logo
+    margin: auto
+
+  h1, .h1
+    font-size: 24px
+
+  h2
+    font-size: 22px
+
+
+  .subtext
+    font-size: 16px
+    margin: 0 0 20px
+
+  .input-text
+    font-size: 16px
+    margin: 0 0 10px
+
+  label
+    margin: 0 0 20px
+
+  .form-row
+    margin: 0 0 20px
+
+  .question-box
+    h3
+      font-size: 20px
+
+  .box-text-description
+    font-size: 16px
+    line-height: normal
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  .menu
+    flex-direction: column
+    align-items: center
+
+    li
+      margin: 0 0 10px
+
+  .thead
+    display: none
+
+  .tr
+    flex-wrap: wrap
+
+  .td
+    padding: 10px
+    flex: none
+    width: 33.33%
+
+    &:first-child
+      width: 33.33%
+
+    &:nth-child(2)
+      width: 66.666%
+
+    &:before
+      content: attr(data-table)
+      display: block
+      width: 100%
+      margin: 0 0 5px
+      font-weight: bold
+      color: #333
+
+  .footer-top
+    .menu
+      flex-direction: column
+      align-items: center
+      li
+        margin: 0 0 10px
+
+@media only screen and (max-width: 480px)
+  .td
+    width: 100%
+
+  .menu-footer
+    justify-content: flex-start
+    flex-direction: column
+    align-items: flex-start
+    margin: 0
+    li
+      margin: 0 0 5px
+      &:last-child
+        margin: 0
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px)
+  /**/
+
+
