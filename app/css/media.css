@@ -1,7 +1,8 @@
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  /**/ }
+  .btn {
+    padding: 0 20px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -48,7 +49,12 @@
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      margin: 10px 0 0; } }
+      margin: 10px 0 0; }
+  .result-examination .checkbox {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin: 0 0 20px; } }
 
 @media only screen and (max-width: 768px) {
   .menu {
@@ -97,7 +103,14 @@
     font-size: 20px; }
   .box-text-description {
     font-size: 16px;
-    line-height: normal; } }
+    line-height: normal; }
+  .result-examination h3 {
+    font-size: 26px;
+    line-height: normal; }
+  .stages-examination h4 {
+    font-size: 20px; }
+  .line-progress-value {
+    font-size: 20px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
@@ -142,7 +155,23 @@
         -ms-flex-align: center;
             align-items: center; }
     .footer-top .menu li {
-      margin: 0 0 10px; } }
+      margin: 0 0 10px; }
+  .w-50 {
+    width: 100%; }
+  .result-examination h3 {
+    font-size: 20px; }
+  .info-list {
+    margin: 0 0 20px; }
+  .attention {
+    margin: 30px 0;
+    font-size: 14px; }
+  .line-progress-item {
+    width: 20px;
+    height: 6px; }
+  .stages-examination h4 {
+    font-size: 18px; }
+  .line-progress-value {
+    font-size: 18px; } }
 
 @media only screen and (max-width: 480px) {
   .td {

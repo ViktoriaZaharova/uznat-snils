@@ -64,81 +64,34 @@
 
       <div class="examination bg-grey">
         <div class="container">
-          <div class="result-examination result-plus">
-            <h3>СНИЛС найден!</h3>
-            <div class="w-100">
-              <div class="row">
-                <div class="w-50">
+          <div class="result-examination result-minus">
+            <h3>СНИЛС не найден!</h3>
 
-                  <ul class="info-list my-ul">
-                    <li><strong>По предоставленным данным найдено: </strong></li>
-                    <li>
-                      <p>ФИО: Иванов Иван Иванович</p>
-                    </li>
-                    <li>
-                      <p>Регион: Московская область</p>
-                    </li>
-                    <li>
-                      <p>Дата рождения: 16.04.1993</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="w-50">
-                  <ul class="info-list my-ul">
-                    <li>
-                      <p><strong>СНИЛС: <span>563-97*-97*-**</span></strong> <img src="img/lock.png" alt=""></p>
-                    </li>
-                    <li>
-                      <p><strong>СНИЛС: <span>563-97*-97*-**</span></strong> <img src="img/lock.png" alt=""></p>
-                    </li>
-                  </ul>
-                  <div class="box-text description-result">
-                    <p>В базе ПФР бывают совпадения по ФИО, региону и дате рождения, после оплаты вы получите 2 номера
-                      СНИЛС</p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="attention">
               <div class="attention-icon"><img src="img/attention.svg" alt=""></div>
               <div class="attention-text">
-                <p>Стоимость запроса в ПФР согласно <strong class="color-red">тарифу 49 рублей</strong>. Укажите ваш
-                  адрес
-                  эл. почты для получения информации о вашем СНИЛС</p>
+                <p>Приносим свои извинения но по заданным параметрам нам не удалось найти СНИЛС, попробуйте обратится в Пенсионный Фонд России по вашему местонахождению.</p>
               </div>
             </div>
-            <form method="post" class="form-examination">
-              <div class="row">
-                <label class="w-30">
-                  <span class="input-text">Ваш email<sup>*</sup></span>
-                  <input type="text" placeholder="konstantinov@mail.ru" name="mail">
-                </label>
-                <div class="w-70 form-row">
-                  <button type="submit" class="btn btn-accent">Получить номер СНИЛС 49 руб ></button>
-                  <label class="checkbox">
-                    <input type="checkbox" name="checkbox">
-                    <span class="checkbox-custom"></span>
-                    <span class="checkbox-text">
-              Нажимая на кнопку, Вы соглашаетесь с <a href="#" target="_blank">Правилами партнерской программы</a> и <a
-                        href="#" target="_blank">Обработки персональных данных</a>
-            </span>
-                  </label>
 
-                </div>
-              </div>
-            </form>
+            <a href="index.html" class="link-accent">< <span>Сделать новый запрос</span></a>
           </div>
-          <div class="source">
-            <div class="source-icon"><img src="img/herb.png" alt=""></div>
-            <div class="source-text">
-              <p>Источником информационного сервиса является только открытые базы Российской Федерации, сервис при
-                поиске
-                информации не нарушает законодательтсво Российской Федерации, при оформлении услуги пользователь
-                осознает
-                что бывают совпадения по ФИО, региону и дате рождения, гарантированный ответ можно получить только в ПФР
-                или
-                Госуслугах. В случае не корректной информации пользователь вправе получить полный возврат денежных
-                средств!</p>
+
+
+          <div class="stages-examination">
+            <h4>Проводится проверка по базам:</h4>
+
+            <div class="line-progress">
+              <div class="line-progress-item active"></div>
+              <div class="line-progress-item active"></div>
+              <div class="line-progress-item active"></div>
+              <div class="line-progress-item active"></div>
+              <div class="line-progress-item active"></div>
+              <div class="line-progress-item"></div>
+              <div class="line-progress-item"></div>
+              <div class="line-progress-item"></div>
+              <div class="line-progress-item"></div>
+              <div class="line-progress-value">50%</div>
             </div>
           </div>
         </div>

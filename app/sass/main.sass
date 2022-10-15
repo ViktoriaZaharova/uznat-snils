@@ -129,21 +129,110 @@
 
 /*==========  section index2 ==========*/
 .result-examination
+  width: 100%
   margin: 10px 0 0
   h3
     margin: 0 0 22px
     font-weight: bold
     font-size: 32px
-  h5
-    font-size: 16px
-    font-weight: 500
+  .form-row
+    justify-content: flex-start
+  .checkbox
+    margin: 0 0 0 18px
 
 .info-list
+  line-height: 150%
   font-family: 'Open Sans', sans-serif
+  li
+    margin: 0 0 8px
+
+    &:last-child
+      margin: 0
+  strong
+    font-weight: 500
+    font-family: $default-font
+    span
+      color: #00BA13
+  img
+    display: inline-block
+    margin: 0 0 0 10px
+    max-width: 25px
+  p
+    display: flex
+    align-items: center
+    flex-wrap: wrap
+
+.description-result
+  margin: 20px 0 0
+  color: #4F4F4F
+  font-size: 14px
+  line-height: 150%
+  max-width: 390px
+  width: 100%
+
+.attention
+  display: flex
+  align-items: center
+  margin: 46px 0 32px
+  color: #4F4F4F
+  strong
+    font-weight: 500
+
+
+.attention-text
+  max-width: 670px
+  width: 100%
+
+.attention-icon
+  @include d-flex
+  width: 30px
+  margin: 0 17px 0 0
+
 
 .result-plus
   h3
     color: #00BA13
+
+.result-minus
+  h3
+    text-align: center
+    margin: 0 auto 59px
+    color: #BA5900
+
+.link-accent
+  margin: 0 auto
+  color: #828282
+  font-family: 'Open Sans', sans-serif
+  span
+    text-decoration: underline
+    color: #2862AC
+
+.stages-examination
+  margin: 50px auto
+  h4
+    font-size: 28px
+    font-weight: 500
+    margin: 0 0 8px
+
+
+.line-progress
+  display: flex
+  align-items: center
+
+
+.line-progress-item
+  width: 40px
+  height: 10px
+  margin: 0 5px 0 0
+  background: #E0E0E0
+  &.active
+    background: $accent
+
+.line-progress-value
+  margin: 0 0 0 16px
+  font-size: 28px
+  font-weight: 500
+
 /*==========  section index2 end  ==========*/
 
 /*==========  section  ==========*/

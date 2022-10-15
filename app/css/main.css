@@ -143,20 +143,125 @@
 /*==========  section contacts end  ==========*/
 /*==========  section index2 ==========*/
 .result-examination {
+  width: 100%;
   margin: 10px 0 0; }
   .result-examination h3 {
     margin: 0 0 22px;
     font-weight: bold;
     font-size: 32px; }
-  .result-examination h5 {
-    font-size: 16px;
-    font-weight: 500; }
+  .result-examination .form-row {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .result-examination .checkbox {
+    margin: 0 0 0 18px; }
 
 .info-list {
+  line-height: 150%;
   font-family: 'Open Sans', sans-serif; }
+  .info-list li {
+    margin: 0 0 8px; }
+    .info-list li:last-child {
+      margin: 0; }
+  .info-list strong {
+    font-weight: 500;
+    font-family: "Roboto", sans-serif; }
+    .info-list strong span {
+      color: #00BA13; }
+  .info-list img {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    max-width: 25px; }
+  .info-list p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+.description-result {
+  margin: 20px 0 0;
+  color: #4F4F4F;
+  font-size: 14px;
+  line-height: 150%;
+  max-width: 390px;
+  width: 100%; }
+
+.attention {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 46px 0 32px;
+  color: #4F4F4F; }
+  .attention strong {
+    font-weight: 500; }
+
+.attention-text {
+  max-width: 670px;
+  width: 100%; }
+
+.attention-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  margin: 0 17px 0 0; }
 
 .result-plus h3 {
   color: #00BA13; }
+
+.result-minus h3 {
+  text-align: center;
+  margin: 0 auto 59px;
+  color: #BA5900; }
+
+.link-accent {
+  margin: 0 auto;
+  color: #828282;
+  font-family: 'Open Sans', sans-serif; }
+  .link-accent span {
+    text-decoration: underline;
+    color: #2862AC; }
+
+.stages-examination {
+  margin: 50px auto; }
+  .stages-examination h4 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0 0 8px; }
+
+.line-progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.line-progress-item {
+  width: 40px;
+  height: 10px;
+  margin: 0 5px 0 0;
+  background: #E0E0E0; }
+  .line-progress-item.active {
+    background: #2862AC; }
+
+.line-progress-value {
+  margin: 0 0 0 16px;
+  font-size: 28px;
+  font-weight: 500; }
 
 /*==========  section index2 end  ==========*/
 /*==========  section  ==========*/
