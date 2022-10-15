@@ -18,6 +18,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -57,69 +58,176 @@
     <section class="home" id="home">
       <div class="container">
         <h1>Узнать номер СНИЛС онлайн по фамилии</h1>
-        <h4>Онлайн поиск номера СНИЛС по ФИО, региону и дате рождения. Поиск производится по открытым данным баз Российской
+        <h4>Онлайн поиск номера СНИЛС по ФИО, региону и дате рождения. Поиск производится по открытым данным баз
+          Российской
           Федерации, актуальность данных на дату запроса, сведения являются официальными!</h4>
       </div>
 
       <div class="examination bg-grey">
         <div class="container">
-          <form method="post" class="form-examination">
-            <div class="subtext">
-              <p>Введите данные для проверки поиска СНИЛС, достаточно указать ФИО, регион и дату рождения и мы произведем
-                поиск по доступным базам!</p>
-            </div>
+          <div class="examination-slider">
+            <div class="slide">
+              <form method="post" class="form-examination">
+                <div class="subtext">
+                  <p>Введите данные для проверки поиска СНИЛС, достаточно указать ФИО, регион и дату рождения и мы
+                    произведем
+                    поиск по доступным базам!</p>
+                </div>
 
-            <div class="row">
-              <label class="w-30">
-                <span class="input-text">Ваш регион<sup>*</sup></span>
-                <select name="select" class="js-example-basic-single">
-                  <option value=""></option>
-                  <option value="Московская область">Московская область</option>
-                  <option value="Алтайский край">Алтайский край</option>
-                  <option value="Амурский край">Амурский край</option>
-                  <option value="Архангельская область">Архангельская область</option>
-                  <option value="Белгородская область">Белгородская область</option>
-                  <option value="Алтайский край">Алтайский край</option>
-                  <option value="Амурский край">Амурский край</option>
-                  <option value="Архангельская область">Архангельская область</option>
-                  <option value="Белгородская область">Белгородская область</option>
-                </select>
-              </label>
-              <label class="w-70">
-                <span class="input-text">ФИО<sup>*</sup></span>
-                <input type="text" name="name" placeholder="Константиновский Константин Константинович">
-              </label>
-            </div>
-            <div class="row">
-              <label class="w-30">
-                <span class="input-text">Дата рождения<sup>*</sup></span>
-                <select name="select" class="js-example-basic-single">
-                  <option value="16.04.1993">16.04.1993</option>
-                  <option value="16.04.1993">16.04.1993</option>
-                  <option value="16.04.1993">16.04.1993</option>
-                  <option value="16.04.1993">16.04.1993</option>
-                </select>
-              </label>
-              <div class="w-70 form-row">
-                <label class="checkbox">
-                  <input type="checkbox" name="checkbox">
-                  <span class="checkbox-custom"></span>
-                  <span class="checkbox-text">
+                <div class="row">
+                  <label class="w-30">
+                    <span class="input-text">Ваш регион<sup>*</sup></span>
+                    <select name="select" class="js-example-basic-single">
+                      <option value=""></option>
+                      <option value="Московская область">Московская область</option>
+                      <option value="Алтайский край">Алтайский край</option>
+                      <option value="Амурский край">Амурский край</option>
+                      <option value="Архангельская область">Архангельская область</option>
+                      <option value="Белгородская область">Белгородская область</option>
+                      <option value="Алтайский край">Алтайский край</option>
+                      <option value="Амурский край">Амурский край</option>
+                      <option value="Архангельская область">Архангельская область</option>
+                      <option value="Белгородская область">Белгородская область</option>
+                    </select>
+                  </label>
+                  <label class="w-70">
+                    <span class="input-text">ФИО<sup>*</sup></span>
+                    <input type="text" name="name" placeholder="Константиновский Константин Константинович">
+                  </label>
+                </div>
+                <div class="row">
+                  <label class="w-30">
+                    <span class="input-text">Дата рождения<sup>*</sup></span>
+                    <select name="select" class="js-example-basic-single">
+                      <option value="16.04.1993">16.04.1993</option>
+                      <option value="16.04.1993">16.04.1993</option>
+                      <option value="16.04.1993">16.04.1993</option>
+                      <option value="16.04.1993">16.04.1993</option>
+                    </select>
+                  </label>
+                  <div class="w-70 form-row">
+                    <label class="checkbox">
+                      <input type="checkbox" name="checkbox">
+                      <span class="checkbox-custom"></span>
+                      <span class="checkbox-text">
               Нажимая на кнопку, Вы соглашаетесь с <a href="#" target="_blank">Правилами партнерской программы</a> и <a
-                      href="#" target="_blank">Обработки персональных данных</a>
+                          href="#" target="_blank">Обработки персональных данных</a>
             </span>
-                </label>
-                <button type="submit" class="btn btn-accent">Найти ></button>
+                    </label>
+                    <a href="#" class="btn btn-accent btn-next-slide">Найти ></a>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <div class="stages-examination">
+                <h4>Проводится проверка по базам:</h4>
+
+                <div class="line-progress">
+                  <div class="line-progress-item active"></div>
+                  <div class="line-progress-item active"></div>
+                  <div class="line-progress-item active"></div>
+                  <div class="line-progress-item active"></div>
+                  <div class="line-progress-item active"></div>
+                  <div class="line-progress-item"></div>
+                  <div class="line-progress-item"></div>
+                  <div class="line-progress-item"></div>
+                  <div class="line-progress-item"></div>
+                  <div class="line-progress-value">50%</div>
+                </div>
               </div>
             </div>
-          </form>
+            <div class="slide">
+              <div class="result-examination result-plus">
+                <h3>СНИЛС найден!</h3>
+                <div class="w-100">
+                  <div class="row">
+                    <div class="w-50">
+
+                      <ul class="info-list my-ul">
+                        <li><strong>По предоставленным данным найдено: </strong></li>
+                        <li>
+                          <p>ФИО: Иванов Иван Иванович</p>
+                        </li>
+                        <li>
+                          <p>Регион: Московская область</p>
+                        </li>
+                        <li>
+                          <p>Дата рождения: 16.04.1993</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="w-50">
+                      <ul class="info-list my-ul">
+                        <li>
+                          <p><strong>СНИЛС: <span>563-97*-97*-**</span></strong> <img src="img/lock.png" alt=""></p>
+                        </li>
+                        <li>
+                          <p><strong>СНИЛС: <span>563-97*-97*-**</span></strong> <img src="img/lock.png" alt=""></p>
+                        </li>
+                      </ul>
+                      <div class="box-text description-result">
+                        <p>В базе ПФР бывают совпадения по ФИО, региону и дате рождения, после оплаты вы получите 2 номера
+                          СНИЛС</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="attention">
+                  <div class="attention-icon"><img src="img/attention.svg" alt=""></div>
+                  <div class="attention-text">
+                    <p>Стоимость запроса в ПФР согласно <strong class="color-red">тарифу 49 рублей</strong>. Укажите ваш
+                      адрес
+                      эл. почты для получения информации о вашем СНИЛС</p>
+                  </div>
+                </div>
+                <form method="post" class="form-examination">
+                  <div class="row">
+                    <label class="w-30">
+                      <span class="input-text">Ваш email<sup>*</sup></span>
+                      <input type="text" placeholder="konstantinov@mail.ru" name="mail">
+                    </label>
+                    <div class="w-70 form-row">
+                      <button type="submit" class="btn btn-accent">Получить номер СНИЛС 49 руб ></button>
+                      <label class="checkbox">
+                        <input type="checkbox" name="checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-text">
+              Нажимая на кнопку, Вы соглашаетесь с <a href="#" target="_blank">Правилами партнерской программы</a> и <a
+                            href="#" target="_blank">Обработки персональных данных</a>
+            </span>
+                      </label>
+
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="result-examination result-minus">
+                <h3>СНИЛС не найден!</h3>
+
+                <div class="attention">
+                  <div class="attention-icon"><img src="img/attention.svg" alt=""></div>
+                  <div class="attention-text">
+                    <p>Приносим свои извинения но по заданным параметрам нам не удалось найти СНИЛС, попробуйте обратится в Пенсионный Фонд России по вашему местонахождению.</p>
+                  </div>
+                </div>
+
+                <a href="index.html" class="link-accent btn-prev-slide">< <span>Сделать новый запрос</span></a>
+              </div>
+            </div>
+          </div>
 
           <div class="source">
             <div class="source-icon"><img src="img/herb.png" alt=""></div>
             <div class="source-text">
-              <p>Источником информационного сервиса является только открытые базы Российской Федерации, сервис при поиске
-                информации не нарушает законодательтсво Российской Федерации, при оформлении услуги пользователь осознает
-                что бывают совпадения по ФИО, региону и дате рождения, гарантированный ответ можно получить только в ПФР или
+              <p>Источником информационного сервиса является только открытые базы Российской Федерации, сервис при
+                поиске
+                информации не нарушает законодательтсво Российской Федерации, при оформлении услуги пользователь
+                осознает
+                что бывают совпадения по ФИО, региону и дате рождения, гарантированный ответ можно получить только в ПФР
+                или
                 Госуслугах. В случае не корректной информации пользователь вправе получить полный возврат денежных
                 средств!</p>
             </div>
@@ -189,11 +297,13 @@
           <h3>Как проверить статус загран паспорта</h3>
           <div class="box-text">
             <p>Прежде всего, базовый вектор развития однозначно фиксирует необходимость поэтапного и последовательного
-              развития общества. В своём стремлении улучшить пользовательский опыт мы упускаем, что стремящиеся вытеснить
+              развития общества. В своём стремлении улучшить пользовательский опыт мы упускаем, что стремящиеся
+              вытеснить
               традиционное производство, нанотехнологии являются только методом политического участия и объявлены
               нарушающими общечеловеческие нормы этики и морали. Внезапно, представители современных социальных резервов
               освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется,
-              разоблачены. Прежде всего, базовый вектор развития является качественно новой ступенью анализа существующих
+              разоблачены. Прежде всего, базовый вектор развития является качественно новой ступенью анализа
+              существующих
               паттернов поведения.</p>
           </div>
         </div>
@@ -202,11 +312,13 @@
           <h3>Цена оформления загранпаспорта</h3>
           <div class="box-text">
             <p>Прежде всего, базовый вектор развития однозначно фиксирует необходимость поэтапного и последовательного
-              развития общества. В своём стремлении улучшить пользовательский опыт мы упускаем, что стремящиеся вытеснить
+              развития общества. В своём стремлении улучшить пользовательский опыт мы упускаем, что стремящиеся
+              вытеснить
               традиционное производство, нанотехнологии являются только методом политического участия и объявлены
               нарушающими общечеловеческие нормы этики и морали. Внезапно, представители современных социальных резервов
               освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется,
-              разоблачены. Прежде всего, базовый вектор развития является качественно новой ступенью анализа существующих
+              разоблачены. Прежде всего, базовый вектор развития является качественно новой ступенью анализа
+              существующих
               паттернов поведения.</p>
           </div>
         </div>
@@ -215,11 +327,13 @@
           <h3>Как проверить статус загран паспорта</h3>
           <div class="box-text">
             <p>Прежде всего, базовый вектор развития однозначно фиксирует необходимость поэтапного и последовательного
-              развития общества. В своём стремлении улучшить пользовательский опыт мы упускаем, что стремящиеся вытеснить
+              развития общества. В своём стремлении улучшить пользовательский опыт мы упускаем, что стремящиеся
+              вытеснить
               традиционное производство, нанотехнологии являются только методом политического участия и объявлены
               нарушающими общечеловеческие нормы этики и морали. Внезапно, представители современных социальных резервов
               освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется,
-              разоблачены. Прежде всего, базовый вектор развития является качественно новой ступенью анализа существующих
+              разоблачены. Прежде всего, базовый вектор развития является качественно новой ступенью анализа
+              существующих
               паттернов поведения.</p>
           </div>
         </div>
@@ -228,11 +342,13 @@
           <h3>Как проверить статус загран паспорта</h3>
           <div class="box-text">
             <p>Прежде всего, базовый вектор развития однозначно фиксирует необходимость поэтапного и последовательного
-              развития общества. В своём стремлении улучшить пользовательский опыт мы упускаем, что стремящиеся вытеснить
+              развития общества. В своём стремлении улучшить пользовательский опыт мы упускаем, что стремящиеся
+              вытеснить
               традиционное производство, нанотехнологии являются только методом политического участия и объявлены
               нарушающими общечеловеческие нормы этики и морали. Внезапно, представители современных социальных резервов
               освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется,
-              разоблачены. Прежде всего, базовый вектор развития является качественно новой ступенью анализа существующих
+              разоблачены. Прежде всего, базовый вектор развития является качественно новой ступенью анализа
+              существующих
               паттернов поведения.</p>
           </div>
         </div>
@@ -270,6 +386,7 @@
 
 
 <script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script src="js/common.js"></script>
 

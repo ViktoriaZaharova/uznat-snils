@@ -236,7 +236,10 @@
     color: #2862AC; }
 
 .stages-examination {
-  margin: 50px auto; }
+  margin: 50px auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; }
   .stages-examination h4 {
     font-size: 28px;
     font-weight: 500;
