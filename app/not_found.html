@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Контакты сервиса uznat-snils.ru</title>
+    <meta name='description' content='Техническая поддержка сервиса uznat-snils, адреса эл. почты и номера телефона сервиса для быстрого решения вопросов' />
+
+
+    <meta property='og:title' content='Контакты сервиса uznat-snils.ru' />
+    <meta property='og:description' content='Техническая поддержка сервиса uznat-snils, адреса эл. почты и номера телефона сервиса для быстрого решения вопросов' />
+    <meta property='og:type' content='website' />
+    <meta property='og:url' content='{% url 'main' %}}' />
+    <meta property='og:image' content='{% static 'process_module/img/logo.png' %}' />
+
+  <meta property="og:image" content="{% static 'process_module/img/logo.png' %}">
+  <link rel="shortcut icon" href="{% static 'process_module/img/favicon/favicon.png' %}" type="image/x-icon">
+<meta name="yandex-verification" content="66d1ebc4981f62e2" />
+<meta name="google-site-verification" content="fzohALu1Tfk18aet9Yja2vo7T_81aIKoE4rzNm1hyH8" />
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link href="{% static 'process_module/css/select2.min.css' %}" rel="stylesheet"/>
+  <link rel="stylesheet" href="{% static 'process_module/css/slick.css' %}"/>
+  <link rel="stylesheet" href="{% static 'process_module/css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'process_module/css/header.css' %}">
+  <link rel="stylesheet" href="{% static 'process_module/css/footer.css' %}">
+  <link rel="stylesheet" href="{% static 'process_module/css/main.css' %}">
+  <link rel="stylesheet" href="{% static 'process_module/css/media.css' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'process_module/img/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'process_module/img/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'process_module/img/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'process_module/img/favicon/site.webmanifest' %}">
+    <link rel="mask-icon" href="{% static 'process_module/img/favicon/safari-pinned-tab.svg' %}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+<div class="wrapper h-100">
+  <div class="content">
+    <header>
+      <div class="container">
+        <a href="{% url 'main' %}" class="logo">
+          <span class="logo-icon"><img src="{% static 'process_module/img/logo.png' %}" alt=""></span>
+          <span class="logo-text">
+        <span class="logo-name">Uznat-SNILS.ru</span>
+        Проверка СНИЛС онлайн
+      </span>
+        </a>
+
+        <ul class="menu my-ul">
+          <li><a href="/">Узнать СНИЛС онлайн</a></li>
+          <li><a href="{% url 'data' %}">О предоставляемых данных</a></li>
+          <li><a href="{% url 'contacts' %}">Контакты и оплата</a></li>
+        </ul>
+
+        <div class="btn-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <section class="home contacts-home">
+      <div class="container">
+        <h1>Страница не найдена</h1>
+        <div class="box-text-description">
+            <a type="submit" href="{% url 'main' %}" class="btn btn-accent">На главную</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <a href="{% url 'main' %}" class="logo">
+          <span class="logo-icon"><img src="{% static 'process_module/img/logo.png' %}" alt=""></span>
+          <span class="logo-text">
+        <span class="logo-name">Uznat-SNILS.ru</span>
+        Проверка СНИЛС онлайн
+      </span>
+        </a>
+
+        <ul class="menu my-ul">
+          <li><a href="/" class="go_to">Узнать СНИЛС онлайн</a></li>
+          <li><a href="{% url 'data' %}">О предоставляемых данных</a></li>
+          <li><a href="{% url 'contacts' %}">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <ul class="menu-footer my-ul">
+          <li><a href="{% static 'process_module/pdf/politika.pdf' %}" target="_blank">Политика конфиденциальности</a></li>
+          <li><a href="{% static 'process_module/pdf/obrabotka.pers.pdf' %}" target="_blank">Договор оферта</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" src="{% static 'process_module/js/metrika.js' %}"></script>
+<noscript><div><img src="https://mc.yandex.ru/watch/90912618" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script src="{% static 'process_module/js/jquery.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'process_module/js/slick.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'process_module/js/select2.min.js' %}"></script>
+<script src="{% static 'process_module/js/common.js' %}"></script>
+
+</body>
+
+</html>

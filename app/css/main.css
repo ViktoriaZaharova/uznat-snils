@@ -267,8 +267,22 @@
   font-weight: 500; }
 
 /*==========  section index2 end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
+/*==========  section not-found ==========*/
+.not-found h1 {
+  text-align: center;
+  margin: 0 auto 20px; }
+
+.not-found .box-text-description {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.not-found .box-text-description .btn {
+  margin: 0 auto;
+}
+
+/*==========  section not-found end  ==========*/
 /*==========  section  ==========*/
 /*==========  section end  ==========*/
 /*==========  section  ==========*/
